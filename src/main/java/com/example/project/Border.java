@@ -1,17 +1,17 @@
 package com.example.project;
 
-public class Dot extends Sprite {
-    public Dot(int x, int y) {
+public class Border extends Sprite {
+    public Border(int x, int y) {
         super(x, y);
     }
 
     @Override
     public String getCoords() {
-        return "Dot:" + super.getCoords();
+        return "Border:" + super.getCoords();
     }
 
     @Override
     public String getRowCol(int size) {
-        return "Dot:" + super.getRowCol(size);
+        return "Border:" + super.getRowCol(size);
     }
 }
